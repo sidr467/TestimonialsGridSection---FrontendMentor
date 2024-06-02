@@ -10,6 +10,9 @@ module.exports = {
       Lightgray: "hsl(0, 0%, 81%)",
       Lightgrayishblue: "hsl(210, 46%, 95%)",
     },
+    fontFamily:{
+      barlow:[ "Barlow Semi Condensed", "sans-serif"]
+    }
   },
   plugins: [],
 }
