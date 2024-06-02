@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["/*.{html,js}"],
+  content: ["*.{html,js}"],
   theme: {
     colors: {
       Moderateviolet: "hsl(263, 55%, 52%)",
@@ -10,9 +10,9 @@ module.exports = {
       Lightgray: "hsl(0, 0%, 81%)",
       Lightgrayishblue: "hsl(210, 46%, 95%)",
     },
-    fontFamily:{
-      barlow:[ "Barlow Semi Condensed", "sans-serif"]
-    }
+    fontFamily: {
+      barlow: ["Barlow Semi Condensed", "sans-serif"],
+    },
   },
   plugins: [],
 }
